@@ -211,7 +211,7 @@ function getData() {
                 }
                 style={
                   onlineUser.includes(user._id)
-                    ? { border: "#82e0aa 3px solid" }
+                    ? { border: "#018711 4px solid" }
                     : {}
                 }
               >
