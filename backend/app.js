@@ -18,10 +18,14 @@ app.use(express.json({
 const server = require('http').createServer(app);
 
 //"Use this HTTP server and attach socket functionality to it"
-const io = require('socket.io')(server, {cors: {
-    origin: 'http://localhost:5173',
-    methods: ['GET', 'POST']
-}})
+const io = require("socket.io")(server, {
+  cors: {
+    origin: "https://frontend-chat-app-0nvc.onrender.com",
+    methods: ["GET", "POST"],
+    credentials: true
+  }
+});
+
 
 app.use('/api/auth', authRouter);
 app.use('/api/user', userRouter);
