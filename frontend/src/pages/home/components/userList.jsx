@@ -196,7 +196,7 @@ function getData() {
                 className="user-profile-image"
                 style={
                   onlineUser.includes(user._id)
-                    ? { border: "#82e0aa 3px solid" }
+                    ? { border: "#068004 3px solid" }
                     : {}
                 }
               />
@@ -211,7 +211,7 @@ function getData() {
                 }
                 style={
                   onlineUser.includes(user._id)
-                    ? { border: "#018711 4px solid" }
+                    ? { border: "#068004 4px solid" }
                     : {}
                 }
               >
