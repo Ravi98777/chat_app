@@ -21,6 +21,8 @@ function ChatArea({ socket }) {
   const [isTyping, setIsTyping] = useState(false);
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
 
+
+  //formats date and  time in user list.
   const formatTime = (timestamp) => {
     const now = moment();
     const diff = now.diff(moment(timestamp), "days");
@@ -142,7 +144,7 @@ function ChatArea({ socket }) {
 
     const handleReceiveMessage = (msg) => {
       if (msg.chatId !== selectedChat._id) return;
-      if (msg.sender === user._id) return; // ✅ stop sender duplicate
+      if (msg.sender === user._id) return; //  stop sender duplicate
 
       setAllMessages((prev) => [...prev, msg]);
       clearUnreadMessages();
@@ -164,7 +166,7 @@ function ChatArea({ socket }) {
     <>
       {selectedChat && (
         <div className="app-chat-area">
-          {/* ✅ Header with Mobile Back Button */}
+          
           <div className="app-chat-area-header">
             <button
               className="mobile-back-btn"

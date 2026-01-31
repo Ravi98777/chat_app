@@ -23,6 +23,7 @@ const usersSlice = createSlice({
       state.totalUnread = action.payload.reduce((sum, chat) => {
         return sum + (chat?.unreadMessageCount || 0);
       }, 0);
+
     },
     setSelectedChat: (state, action) => {
       state.selectedChat = action.payload;

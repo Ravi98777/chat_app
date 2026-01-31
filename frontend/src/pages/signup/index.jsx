@@ -26,7 +26,7 @@ function Signup() {
 
       if (response?.success) {
         toast.success(response.message || "Signup successful!");
-        navigate("/login"); // ✅ redirect after signup
+        navigate("/login"); //  redirect after signup
       } else {
         toast.error(response?.message || "Signup failed");
       }

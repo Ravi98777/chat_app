@@ -38,12 +38,12 @@ function Home() {
     <div className="home-page">
       <Header socket={socket} />
       <div className="main-content responsive-layout">
-        {/* ✅ Mobile view: if chat selected, hide sidebar */}
+        {/*  Mobile view: if chat selected, hide sidebar */}
         <div className={`sidebar-wrap ${selectedChat ? "hide-on-mobile" : ""}`}>
           <Sidebar socket={socket} onlineUser={onlineUser} />
         </div>
 
-        {/* ✅ Mobile view: show chat only when selected */}
+        {/*  Mobile view: show chat only when selected */}
         <div className={`chat-wrap ${!selectedChat ? "hide-on-mobile" : ""}`}>
           {selectedChat && <ChatArea socket={socket} />}
         </div>

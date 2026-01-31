@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 function Header({ socket }) {
-  const { user, totalUnread } = useSelector((state) => state.userReducer);
+  const { user } = useSelector((state) => state.userReducer);
   const navigate = useNavigate();
 
   function getFullname() {

@@ -26,7 +26,7 @@ function UsersList({ searchKey, socket, onlineUser }) {
 
         const newChat = response.data;
 
-        // ✅ prevent duplicate chats in redux
+        //  prevent duplicate chats in redux
         const alreadyExists = allChats.some((c) => c._id === newChat._id);
         const updatedChats = alreadyExists ? allChats : [newChat, ...allChats];
 
@@ -151,12 +151,12 @@ function getData() {
     });
   }
 
-  // ✅ Default -> show allUsers always
+  //  Default -> show allUsers always
   return allUsers;
 }
 
 
-  // ✅ REMOVE DUPLICATE USERS (VERY IMPORTANT FIX)
+  //  REMOVE DUPLICATE USERS (VERY IMPORTANT FIX)
   const data = getData() || [];
   const seen = new Set();
   const uniqueData = [];
