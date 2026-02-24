@@ -201,8 +201,8 @@ function ChatArea({ socket }) {
                           <img
                             src={msg.image}
                             alt="img"
-                            height="120"
-                            width="120"
+                            height="200"
+                            width="200"
                           />
                         </div>
                       )}
