@@ -253,8 +253,8 @@ MESSAGE {
 ## Clone
 
 ``` bash
-git clone https://github.com/yourusername/chatly.git
-cd chatly
+git clone https://github.com/yourusername/convo-x.git
+cd convo-x
 ```
 
 ## Backend
