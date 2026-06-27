@@ -244,7 +244,8 @@ MESSAGE {
 ------------------------------------------------------------------------
 # 🎥 Demo
 
- view in chat_app directory
+ view in chat_app directory or
+ [▶️ Watch the Chat App demonstration](convo-x_demo.mp4)
 
 ------------------------------------------------------------------------
 
