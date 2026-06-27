@@ -1,4 +1,4 @@
-# 💬 Chatly - Real-Time Chat Application
+# 💬 Convo-x - Real-Time Chat Application
 
 > **A Modern Full Stack Real-Time Chat Application built using the MERN
 > Stack & Socket.IO**
@@ -16,7 +16,6 @@
 -   Folder Structure
 -   Database Schema
 -   REST API
--   Screenshots
 -   Demo
 -   Installation
 -   Environment Variables
@@ -243,16 +242,9 @@ MESSAGE {
   GET      /api/message/:receiverId
 
 ------------------------------------------------------------------------
-
-# 📸 Screenshots
-
-  uploaded soon
- 
-------------------------------------------------------------------------
-
 # 🎥 Demo
 
- uploaded soon
+ view in chat_app directory
 
 ------------------------------------------------------------------------
 
