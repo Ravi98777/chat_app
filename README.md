@@ -292,8 +292,8 @@ VITE_SERVER_URL=http://localhost:8000
 
 # 🚀 Deployment
 
--   Frontend: Vercel / Netlify
--   Backend: Render / Railway
+-   Frontend: Render link : https://frontend-chat-app-0nvc.onrender.com
+-   Backend: Render
 -   Database: MongoDB Atlas
 -   Media: Cloudinary
 
